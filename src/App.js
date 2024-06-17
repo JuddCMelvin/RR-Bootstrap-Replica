@@ -1,9 +1,12 @@
-import './App.css';
+import './App.css'
+import TopBar from './components/TopBar'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Planet</h1>
+      <TopBar />
+      {/* <Background />
+      <StoreListings /> */}
     </div>
   );
 }
